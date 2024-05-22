@@ -4,7 +4,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-# Load event data from CSV file
+# Load event data from CSV file// considering CSV file pero since DB need natin
+# babaguhin to
 events_data = []
 with open('event.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
