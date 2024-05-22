@@ -1,3 +1,6 @@
+#THIS IS USING CSV FILE 
+# NEED TO UPDATE USING DB
+
 import pandas as pd
 
 # Step 1: Data Collection (Assuming you have a dataset with user interactions)
